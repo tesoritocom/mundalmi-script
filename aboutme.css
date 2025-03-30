@@ -1,0 +1,59 @@
+.topnav {
+    background-color: #CAD8E6;
+    padding: 20px;
+    text-align: center;
+    position: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border-bottom: 4px solid #FFECCF;
+}
+  
+/* Style the links inside the navigation bar */
+.topnav nav a {
+    margin: 0 20px;
+    color: #78A3C5;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+  
+/* Change the color of links on hover */
+.topnav a:hover {
+    color: #A2C4D8;
+}
+.about-body {
+    background-color: #F1DDD6;
+    font-family: 'Georgia', serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.about-content {
+    margin-left: 300px;
+    padding: 60px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.about-content section {
+    background-color: #F2F2F2;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.08);
+}
+
+.about-content h2{
+    color: #72B7B6;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+
+}
+
+.about-content p,
+.about-content li {
+    font-size: 1.05rem;
+}
